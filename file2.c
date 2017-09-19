@@ -77,13 +77,17 @@ typedef struct Books
 #define TRUE  1
 #define FALSE 0
 
+//参数化的宏
+//CPP 一个强大的功能是可以使用参数化的宏来模拟函数。例如，下面的代码是计算一个数的平方：
+#define square(x) ((x) * (x))
+#define MAX(x,y) ((x) > (y) ? (x) : (y))
 
-void main(){
-	//1 共用体
-	union Data data;
-
-	//Memory size occupied by data : 20
-	printf("Memeory, size occupied by data : %d\n", sizeof(data));
+//void main(){
+//	//1 共用体
+//	union Data data;
+//
+//	//Memory size occupied by data : 20
+//	printf("Memeory, size occupied by data : %d\n", sizeof(data));
 	/*
 	data.i = 10;
 	data.f = 220.5;
@@ -124,8 +128,11 @@ void main(){
 	printf("书类目 : %s\n", book.subject);
 	printf("书 ID : %d\n", book.book_id);*/
 
-	printf("TRUE 的值: %d\n", TRUE);
-	printf("FALSE 的值: %d\n", FALSE);
-
-	getchar();
-}
+//	printf("TRUE 的值: %d\n", TRUE);
+//	printf("FALSE 的值: %d\n", FALSE);
+//
+//
+//	int m = square(5);
+//	printf("FALSE 的值: %d\n", m);
+//	getchar();
+//}

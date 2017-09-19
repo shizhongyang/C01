@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="file1.c" />
     <ClCompile Include="file2.c" />
+    <ClCompile Include="file3.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C6B1FFBB-DF11-46B9-9537-07ED1F59E956}</ProjectGuid>
