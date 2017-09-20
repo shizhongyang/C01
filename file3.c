@@ -60,46 +60,46 @@
 //动态分配内存 在程序运行过程中，动态指定需要使用的内存大小，手动释放，
 //释放之后这些内存还可以被重新使用（活水）
 
-void main(){
-	//静态内存分配创建数组  数组的大小是固定的
-	//int i = 10;
-	//int a[i];
-
-	int len;
-	printf("输入数组的长度");
-	scanf("%d", &len);
-
-	//开辟内存 大小len*4字节
-	int *p = malloc(len*sizeof(int));
-	//p是数组的首地址 也是数组的名称
-	//给数组的元素赋值（使用这一块刚刚开辟出来的内存区域）
-	int i = 0;
-
-	for (; i < len; i++){
-		p[i] =  rand() % 100;
-		printf("%d,%#x\n", p[i], &p[i]);
-	}
-
-	int addlen;
-	printf("输入数组增加的长度");
-	//内存不够用 扩大刚刚分配的内存空间
-	scanf("%d", &addlen);
-
-	//1、原来的内存的指针 2、内存扩大之后的总大小
-	int *p2 = realloc(p, sizeof(int)*(len + addlen));
-	//重新赋值
-	i = 0;
-
-	for (; i < len + addlen; i++){
-		p2[i] = rand() % 100;
-		printf("%d,%#x\n", p2[i], &p2[i]);
-	}
-
-
-	//手动释放内存
-	free(p);
-
-	system("pause");
-
-
-}
+//void main(){
+//	//静态内存分配创建数组  数组的大小是固定的
+//	//int i = 10;
+//	//int a[i];
+//
+//	int len;
+//	printf("输入数组的长度");
+//	scanf("%d", &len);
+//
+//	//开辟内存 大小len*4字节
+//	int *p = malloc(len*sizeof(int));
+//	//p是数组的首地址 也是数组的名称
+//	//给数组的元素赋值（使用这一块刚刚开辟出来的内存区域）
+//	int i = 0;
+//
+//	for (; i < len; i++){
+//		p[i] =  rand() % 100;
+//		printf("%d,%#x\n", p[i], &p[i]);
+//	}
+//
+//	int addlen;
+//	printf("输入数组增加的长度");
+//	//内存不够用 扩大刚刚分配的内存空间
+//	scanf("%d", &addlen);
+//
+//	//1、原来的内存的指针 2、内存扩大之后的总大小
+//	int *p2 = realloc(p, sizeof(int)*(len + addlen));
+//	//重新赋值
+//	i = 0;
+//
+//	for (; i < len + addlen; i++){
+//		p2[i] = rand() % 100;
+//		printf("%d,%#x\n", p2[i], &p2[i]);
+//	}
+//
+//
+//	//手动释放内存
+//	free(p);
+//
+//	system("pause");
+//
+//
+//}

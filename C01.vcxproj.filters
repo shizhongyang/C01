@@ -24,5 +24,17 @@
     <ClCompile Include="file3.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="file_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_struct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsvideo\2016_08_07_C_结构体与指针\code\c_04\c_04\01.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsvideo\2016_08_08_C_联合体_枚举_IO\code\c_05\c_05\02_io.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

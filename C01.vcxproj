@@ -11,9 +11,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\vsvideo\2016_08_07_C_结构体与指针\code\c_04\c_04\01.c" />
+    <ClCompile Include="..\..\..\vsvideo\2016_08_08_C_联合体_枚举_IO\code\c_05\c_05\02_io.c" />
     <ClCompile Include="file1.c" />
     <ClCompile Include="file2.c" />
     <ClCompile Include="file3.c" />
+    <ClCompile Include="file_string.cpp" />
+    <ClCompile Include="file_struct.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C6B1FFBB-DF11-46B9-9537-07ED1F59E956}</ProjectGuid>
