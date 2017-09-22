@@ -30,11 +30,45 @@
     <ClCompile Include="file_struct.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\vsvideo\2016_08_07_C_结构体与指针\code\c_04\c_04\01.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\vsvideo\2016_08_08_C_联合体_枚举_IO\code\c_05\c_05\02_io.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="file_precompile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_jni.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_JNIEnv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_jni.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsvideo\2016_08_07_C_结构体与指针\code\c_04\c_04\01_struct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="my.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="B.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="com_shixin_jni_JniTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jni_md.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

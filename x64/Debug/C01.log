@@ -1,0 +1,33 @@
+﻿生成启动时间为 2017-09-22 16:19:11。
+     1>项目“D:\vsproject\C01\C01\C01.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "..\..\..\vsvideo\2016_08_07_C_结构体与指针\code\c_04\c_04\01_struct.c" file_jni.c file_JNIEnv.c file_precompile.c
+         file_precompile.c
+         file_JNIEnv.c
+         file_jni.c
+         01_struct.c
+     1>..\..\..\vsvideo\2016_08_07_C_结构体与指针\code\c_04\c_04\01_struct.c(1): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+                 命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt file_jni.cpp
+         file_jni.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vsproject\C01\x64\Debug\C01.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vsproject\C01\x64\Debug\C01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vsproject\C01\x64\Debug\C01.lib" /MACHINE:X64 /DLL x64\Debug\01_struct.obj
+         x64\Debug\02_io.obj
+         x64\Debug\file1.obj
+         x64\Debug\file2.obj
+         x64\Debug\file3.obj
+         x64\Debug\file_jni.obj
+         x64\Debug\file_jni.obj
+         x64\Debug\file_JNIEnv.obj
+         x64\Debug\file_precompile.obj
+         x64\Debug\file_string.obj
+         x64\Debug\file_struct.obj
+     1>x64\Debug\file_jni.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+            正在创建库 D:\vsproject\C01\x64\Debug\C01.lib 和对象 D:\vsproject\C01\x64\Debug\C01.exp
+         C01.vcxproj -> D:\vsproject\C01\x64\Debug\C01.dll
+     1>已完成生成项目“D:\vsproject\C01\C01\C01.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.11
