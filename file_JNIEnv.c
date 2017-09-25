@@ -25,7 +25,8 @@ void change(int m){
 	printf("m的地址%x\n", &m);
 }
 
-void changeP(int *p){
+void changeP(int *p //这个相当于重新开辟了一块内存，不是传入的值  和java中的一样
+	){
 	printf("p的地址%x\n", &p);
 	p = 6;
 	printf("p的地址%x\n", p);

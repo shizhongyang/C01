@@ -74,7 +74,7 @@ void mergeImage(){
 }
 
 
-
+//分割文件
 void cutFile(){
 	char *normal_path = "D:/1.png";
 
