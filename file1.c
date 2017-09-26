@@ -33,7 +33,7 @@ void testZhizhen(); //测试指针
 
 int max(int x, int y);
 //typedef int(*fun_ptr)(int, int); // 声明一个指向同样参数、返回值的函数指针类型
-int testPoniterfun(int(*fun_ptr)(int,int),int m,int n); //这两个方法测试函数的回调
+int testPoniterfun(int (*fun_ptr)(int,int),int m,int n); //这两个方法测试函数的回调
 
 int getNextRandomValue(void);
 void populate_array(int *array, size_t arraySize, int(*getNextValue)(void));

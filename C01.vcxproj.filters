@@ -21,9 +21,6 @@
     <ClCompile Include="file2.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="file3.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="file_string.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -48,6 +45,12 @@
     <ClCompile Include="..\..\..\vsvideo\2016_08_07_C_结构体与指针\code\c_04\c_04\01_struct.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\vsvideo\2016_08_17_JNI_缓存策略_Eclipse下NDK开发\code\jni_study\jni_study\file_JNIEnvFunction.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file3_memory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="my.txt">
@@ -68,6 +71,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="jni_md.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="com_dongnaoedu_jni_JniTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

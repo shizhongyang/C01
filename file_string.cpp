@@ -131,21 +131,10 @@ void cutFile(){
 		fclose(ftemp);
 	}
 
-	//复制
-	//int buff[50]; //缓冲区域
-	//int len = 0; //每次读到的数据长度
-	//while ((len = fread(buff, sizeof(int) , 50 , fp)) != 0){
-	//	//将读到的内容写入新的文件
-	//	fwrite(buff, sizeof(int), len, write_fp);
-	//	fseek(write_fp, 0, SEEK_END);
-	//	long filewsize = ftell(write_fp);
-	//	printf("%d\n", filewsize);
-	//}
+
 	//关闭流
 	fclose(fp);
 	fclose(div);
-	//fclose(write_fp);
-	//printf("%d\n", filesize);
 }
 
 

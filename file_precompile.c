@@ -54,6 +54,10 @@ void dn_com_jni_write(){
 //替换
 //__android_log_print(ANDROID_LOG_INFO, "jason", "%s", "fix");
 
+int between(int x, int y);
+//typedef int(*fun_ptr)(int, int); // 声明一个指向同样参数、返回值的函数指针类型
+int testHui(int(*fun_ptr)(int x, int y), int m, int n); //这两个方法测试函数的回调
+
 void main(){
 
 	//#include "my.txt";
@@ -64,16 +68,26 @@ void main(){
 	//替换成：printf("INFO:"); printf("%s%d","大小：",89);
 	//LOG_I
 
+	int n = testHui(between, 3, 5);
+
+	printf("\n%d\n", n);
+
 	getchar();
+}
+
+
+int between(int x,int y){
+	return x + y;
 }
 
 
 
 
 
-
-
-
+int testHui(int(*fun_ptr)(int x, int y), int m, int n){
+	int sum = fun_ptr(m, n);
+	return sum;
+}
 
 
 
