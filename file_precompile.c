@@ -54,18 +54,18 @@ void dn_com_jni_write(){
 //替换
 //__android_log_print(ANDROID_LOG_INFO, "jason", "%s", "fix");
 
-//void main(){
-//
-//	//#include "my.txt";
-//	//jni(read)
-//	jni(write);//替换：dn_com_jni_write();
-//
-//	LOG_E("%s%d", "大小：", 89);
-//	//替换成：printf("INFO:"); printf("%s%d","大小：",89);
-//	//LOG_I
-//
-//	getchar();
-//}
+void main(){
+
+	//#include "my.txt";
+	//jni(read)
+	jni(write);//替换：dn_com_jni_write();
+
+	LOG_E("%s%d", "大小：", 89);
+	//替换成：printf("INFO:"); printf("%s%d","大小：",89);
+	//LOG_I
+
+	getchar();
+}
 
 
 

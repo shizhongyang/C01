@@ -1,14 +1,10 @@
-﻿生成启动时间为 2017-09-22 16:49:44。
+﻿生成启动时间为 2017-09-26 17:05:30。
      1>项目“D:\vsproject\C01\C01\C01.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt file_JNIEnv.c
          file_JNIEnv.c
      1>d:\vsproject\c01\c01\file_jnienv.c(23): warning C4013: “printf”未定义；假设外部返回 int
-     1>d:\vsproject\c01\c01\file_jnienv.c(30): warning C4047: “=”:“int *”与“int”的间接级别不同
-     1>d:\vsproject\c01\c01\file_jnienv.c(56): warning C4047: “函数”:“int *”与“int”的间接级别不同
-     1>d:\vsproject\c01\c01\file_jnienv.c(56): warning C4024: “通过指针的函数”: 形参和实参 2 的类型不同
-     1>d:\vsproject\c01\c01\file_jnienv.c(60): warning C4047: “初始化”:“int *”与“int”的间接级别不同
-     1>d:\vsproject\c01\c01\file_jnienv.c(68): warning C4013: “getchar”未定义；假设外部返回 int
+     1>d:\vsproject\c01\c01\file_jnienv.c(31): warning C4047: “=”:“int *”与“int”的间接级别不同
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vsproject\C01\Debug\C01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vsproject\C01\Debug\C01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vsproject\C01\Debug\C01.lib" /MACHINE:X86 Debug\01_struct.obj
          Debug\02_io.obj
@@ -21,9 +17,11 @@
          Debug\file_precompile.obj
          Debug\file_string.obj
          Debug\file_struct.obj
+     1>Debug\file_jni.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+            正在创建库 D:\vsproject\C01\Debug\C01.lib 和对象 D:\vsproject\C01\Debug\C01.exp
          C01.vcxproj -> D:\vsproject\C01\Debug\C01.exe
      1>已完成生成项目“D:\vsproject\C01\C01\C01.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.20
+已用时间 00:00:00.37
